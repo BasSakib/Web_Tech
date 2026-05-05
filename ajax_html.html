@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Information System</title>
+</head>
+<body>
+
+    <h2>AJAX + JSON Student Information</h2>
+
+    <button onclick="loadData()">Load Student Info</button>
+    <button onclick="searchTopStudent()">Show Top CGPA Student</button>
+    <button onclick="clearData()">Clear</button>
+
+    <br><br>
+
+    <input type="text" id="searchInput" placeholder="Search by Department">
+    <button onclick="searchByDepartment()">Search Department</button>
+    <button onclick="sortByCGPA()">Sort by CGPA</button>
+
+    <div id="result" style="margin-top:20px;"></div>
+
+    <script src="script_js.js"></script>
+
+</body>
+</html>
